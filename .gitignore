@@ -1,3 +1,4 @@
 *.jar
 *.asc
 *.xz
+*.class
