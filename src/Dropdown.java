@@ -8,7 +8,7 @@ import org.openqa.selenium.support.ui.Select;
 
 public class Dropdown {
 
-	public static void main(String[] args) throws InterruptedException {
+	public static void main(String[] args) {
 		WebDriver driver=new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 		driver.get("https://rahulshettyacademy.com/dropdownsPractise/#search.aspx?mode=search");
